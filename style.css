@@ -1,3 +1,5 @@
+
+//assign border to the page
 *,
 *::before,
 *::after {
@@ -72,7 +74,7 @@ header {
   display: block;
   clear: both;
 }
-
+//button
 .btn {
   border: none;
   background-color: hsl(360, 91%, 36%);
@@ -97,7 +99,7 @@ button[disabled] {
 .float-right {
   float: right;
 }
-
+/// password box
 #password {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -130,7 +132,7 @@ button[disabled] {
     font-size: 1rem;
   }
 }
-
+///button 
 @media (max-width: 500px) {
   .btn {
     font-size: 0.8rem;
