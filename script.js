@@ -17,9 +17,10 @@ var lowerCharacter = 'abcdefg';
 var upperCharacter = 'ABCDE';
 var numericCharacter = '0123456789'
 var symbolCharacter = '!@#$%^&*())'
-var possiblePassword = ''
+
 
 function generatePassword() {
+  var possiblePassword = ''  
   var pwLength = prompt("choose a length of at least 8 characters and no more than 128 characters")
 
   if (pwLength < 8 || pwLength > 128) {
