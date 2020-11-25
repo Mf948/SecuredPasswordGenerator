@@ -58,7 +58,7 @@ if(numcon){
 if (speccon){
    possiblePassword += symbolCharacter
 }
-var password =" "
+var password =""
 
 //loop through possiblePassword byt the pwLengh (second condition)
 
@@ -67,8 +67,9 @@ for (var i =0; i < pwLength; i++){
   password = password + possiblePassword[Math.floor(Math.random() * possiblePassword.length)];
   console.log('possiblePassword', possiblePassword)
 }
-return possiblePassword;
-console.log('possiblePassword',)// get the random character 
+console.log('password', password )  
+  return possiblePassword;
+
 }
 
 
