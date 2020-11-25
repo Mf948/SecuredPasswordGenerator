@@ -63,20 +63,19 @@ var password =" "
 
 //inside Math.floor(Math.random() * possiblePassword.length)
 for (var i =0; i < pwLength; i++){
-  possiblePassword = possiblePassword + possiblePasswordVar[Math.floor(Math.random() * possiblePassword.length)];
+  password = password + possiblePassword[Math.floor(Math.random() * possiblePassword.length)];
   console.log('possiblePassword', possiblePassword)
 }
 return possiblePassword;
-
-// get the random character 
+console.log('possiblePassword',)// get the random character 
 }
-console.log('possiblePassword',)
+
 
 
 };
 
 function writepossiblePassword() {
-var possiblePassword = generatePassword();
+var password = generatePassword();
 var passwordText = document.querySelector("#password");
 passwordText.value = password;
 }
