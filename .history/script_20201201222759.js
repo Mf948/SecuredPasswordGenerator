@@ -20,7 +20,7 @@ var symbolCharacter = '!@#$%^&*())'
 
 
 function generatePassword() {
-  var possiblePassword = ''
+  var possiblePassword = ''  
   var pwLength = prompt("choose a length of at least 8 characters and no more than 128 characters")
 
   if (pwLength < 8 || pwLength > 128) {
@@ -67,10 +67,9 @@ for (var i =0; i < pwLength; i++){
   password = password + possiblePassword[Math.floor(Math.random() * possiblePassword.length)];
   console.log('possiblePassword', possiblePassword)
 }
-console.log('password', password)
-return password;
+console.log('password', password )  
+  return possiblePassword;
 
-// get the random character 
 }
 
 
